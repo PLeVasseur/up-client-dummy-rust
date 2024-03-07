@@ -15,7 +15,7 @@ fn main() {
     // Push the absolute path to `CFG.exported_header_dirs`
     CFG.exported_header_dirs.push(&*up_cpp_path_abs);
 
-    cxx_build::bridge("src/bridge.rs")
+    cxx_build::bridge("src/abc.rs")
         .file("lib/src/dummyUTransport.cpp")
         .std("c++17")
         .compile("up-client-dummy-rust");
