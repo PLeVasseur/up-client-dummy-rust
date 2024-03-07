@@ -1,4 +1,4 @@
-#include "lib/include/up-client-dummy-cpp/transport/DummyUTransport.h"
+#include "lib/include/up-client-dummy-cpp/transport/dummyUTransport.h"
 #include <cstddef>
 #include <memory>
 #include <new>
