@@ -5,6 +5,6 @@ mod ffi {
 
         type DummyUTransport;
 
-        fn new_dummy_utransport() -> UniquePtr<crate::ffi::DummyUTransport>;
+        fn new_dummy_utransport() -> UniquePtr<DummyUTransport>;
     }
 }
